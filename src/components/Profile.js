@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Profile() {
   return (
-    <div className="flex flex-col justify-between items-center w-full h-full px-32 my-24 mx-auto">
+    <div className="flex flex-col justify-between items-center w-full h-full px-32 my-24 mx-auto" id="about">
       <h2 className="font-bold text-4xl">
         Trusted by developers across the world
       </h2>

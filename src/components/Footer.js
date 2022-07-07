@@ -1,7 +1,22 @@
 import React from "react";
 import { LightBulbIcon, CurrencyBangladeshiIcon, DesktopComputerIcon, FlagIcon } from "@heroicons/react/solid";
+import { MenuAlt1Icon, LockClosedIcon, ArrowUpIcon } from "@heroicons/react/solid";
+import {
+    Link,
+    Button,
+    Element,
+    Events,
+    animateScroll as scroll,
+    scrollSpy,
+    scroller,
+  } from "react-scroll";
 
 export default function Footer() {
+
+    const scrollToTop = () => {
+        scroll.scrollToTop()
+      }
+
   return (
     <footer className="bg-blue-800 mt-72">
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-x-8 gap-y-16 py-3 px-28 sm:pt-20 text-black my-4 border-b-2 border-white">
@@ -63,6 +78,7 @@ export default function Footer() {
         <CurrencyBangladeshiIcon className="h-8 w-8 text-lime-600" />
         <FlagIcon className="h-8 w-8 text-lime-600" />
         <DesktopComputerIcon className="h-8 w-8 text-lime-600" />
+        <ArrowUpIcon onClick={scrollToTop} className="down-up-slider-btn h-5 w-5 text-blue-500 text-center mt-1 ml-2" />
         </div>
       </div>
     </footer>

@@ -3,7 +3,7 @@ import { ChevronRightIcon } from "@heroicons/react/solid";
 
 export default function Platform() {
   return (
-    <div className="mt-14 p-24">
+    <div className="mt-14 p-24" id="platform">
       <div className="text-center">
         <h3 className="font-bold text-4xl">All-In-One Platform</h3>
         <p className="py-4 text-slate-500">

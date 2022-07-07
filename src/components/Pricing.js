@@ -4,7 +4,7 @@ import { ChevronRightIcon } from "@heroicons/react/solid";
 
 export default function Pricing() {
   return (
-    <div className="w-full h-screen mt-1">
+    <div className="w-full h-screen mt-1" id="pricing">
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img
           src={blueBackground}

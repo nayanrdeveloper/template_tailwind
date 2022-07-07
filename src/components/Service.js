@@ -7,7 +7,7 @@ import {
 
 export default function Service() {
   return (
-    <div className="w-full h-screen mt-24">
+    <div className="w-full h-screen mt-24" id="support">
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img
           className="w-full h-full object-cover mix-blend-overlay"
